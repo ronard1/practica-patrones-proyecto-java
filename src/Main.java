@@ -1,3 +1,4 @@
+import ronard.practicas.gof.facade.Facade;
 import ronard.practicas.gof.singleton.SingletonEager;
 import ronard.practicas.gof.singleton.SingletonLazy;
 import ronard.practicas.gof.singleton.SingletonLazyHolder;
@@ -24,6 +25,7 @@ public class Main {
         */
 
         //Strategy
+        /*
         Comportamiento normal = new ComportamientoNormal();
         Comportamiento defensivo = new ComportamientoDensivo();
         Comportamiento agresivo = new ComportamientoAgresivo();
@@ -38,5 +40,10 @@ public class Main {
         robot.mover();
         robot.mover();
         robot.mover();
+        */
+
+        //Facade
+        Facade facade = new Facade();
+        facade.migrarCliente("Ronard","1008");
     }
 }
