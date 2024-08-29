@@ -1,4 +1,4 @@
-package ronard.practicas.gof;
+package ronard.practicas.gof.singleton;
 
 public class SingletonEager {
     private static SingletonEager instancia = new SingletonEager();

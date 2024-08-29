@@ -1,4 +1,4 @@
-package ronard.practicas.gof;
+package ronard.practicas.gof.singleton;
 
 public class SingletonLazy {
     private static SingletonLazy instancia;
